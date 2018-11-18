@@ -1,4 +1,4 @@
-package com.test.alex;
+package com.test.alex.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -11,10 +11,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.test.alex.interfaces.OnDataBack;
+import com.test.alex.interfaces.OnFragmentCallback;
 import com.test.alex.Pojo.DaysModel;
+import com.test.alex.R;
+import com.test.alex.adapters.WeekAdapter;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class DaysListFragment extends Fragment {
 

@@ -1,29 +1,20 @@
-package com.test.alex;
+package com.test.alex.adapters;
 
-import android.animation.AnimatorSet;
-import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.graphics.Color;
 import android.support.annotation.NonNull;
-import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
-import android.transition.Scene;
-import android.transition.TransitionManager;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.DecelerateInterpolator;
-import android.view.animation.ScaleAnimation;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 import com.test.alex.Pojo.DaysModel;
+import com.test.alex.R;
 
 import java.util.ArrayList;
-import java.util.Calendar;
 
 public class FullDayAdapter extends RecyclerView.Adapter<FullDayAdapter.mViewHolder>{
 

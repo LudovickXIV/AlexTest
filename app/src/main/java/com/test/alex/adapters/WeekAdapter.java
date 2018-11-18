@@ -1,8 +1,6 @@
-package com.test.alex;
+package com.test.alex.adapters;
 
 import android.content.Context;
-import android.graphics.Color;
-import android.icu.text.SimpleDateFormat;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.CardView;
@@ -11,18 +9,15 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
+import com.test.alex.interfaces.OnDataBack;
 import com.test.alex.Pojo.DaysModel;
+import com.test.alex.R;
 
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Map;
-import java.util.TimeZone;
 
 public class WeekAdapter extends RecyclerView.Adapter<WeekAdapter.mViewHolder> {
 

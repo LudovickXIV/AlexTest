@@ -1,4 +1,4 @@
-package com.test.alex;
+package com.test.alex.interfaces;
 
 import com.test.alex.Pojo.DaysModel;
 

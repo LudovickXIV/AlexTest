@@ -1,6 +1,5 @@
 package com.test.alex;
 
-import android.os.Parcelable;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -8,11 +7,14 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
 import com.test.alex.Pojo.DaysModel;
+import com.test.alex.fragments.DaysListFragment;
+import com.test.alex.fragments.FullDayFragment;
+import com.test.alex.interfaces.OnFragmentCallback;
+import com.test.alex.interfaces.OnLoadFragment;
 
 import java.util.ArrayList;
-import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements OnFragmentCallback{
+public class MainActivity extends AppCompatActivity implements OnFragmentCallback {
 
     private FragmentManager manager;
     private FragmentTransaction transaction;

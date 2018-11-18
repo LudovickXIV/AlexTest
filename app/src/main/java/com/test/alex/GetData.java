@@ -1,12 +1,12 @@
 package com.test.alex;
 
 import android.os.AsyncTask;
-import android.util.Log;
 
 import com.test.alex.Pojo.DaysModel;
+import com.test.alex.interfaces.GetWeekData;
+import com.test.alex.interfaces.OnDataBack;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
